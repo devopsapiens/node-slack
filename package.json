@@ -1,0 +1,25 @@
+{
+  "name": "node-slack",
+  "version": "0.0.1",
+  "description": "Send and receive Slack Webhooks easily!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "./node_modules/mocha/bin/_mocha"
+  },
+  "dependencies": {
+    "deferred": "0.7.1",
+    "request": "~2.x",
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.0"
+  },
+  "author": "erasmo dominguez <erasmolpa@gmail.com>",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
+}
